@@ -53,5 +53,7 @@ client.on('messageCreate', async (message) => {
     }
 });
 
+const { token } = require('./config.json');
 
-client.login('MTU0NTM2MDAxNDA5OTYxNTc2NA.G9CXR3.3mrBnjp1kvnb6U10frfLZAah-JlBrcoXnLtr1Q');
+
+client.login(token);
